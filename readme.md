@@ -1,6 +1,6 @@
 # Adrian Villegas - Full Stack Developer Portfolio
 
-![Portfolio Screenshot](img/portafolio.png)
+![Portfolio Screenshot](./img/portfolio.png)
 
 ## Project Overview
 
