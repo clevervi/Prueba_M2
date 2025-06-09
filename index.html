@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Metadata. This is data that is not visible but has functions to import files or sources --> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--  It is used to have compatibility between devices -->
+    <title>Adrian Villegas | Full Stack Developer</title>
+    <meta name="description" content="Professional portfolio of Adrian Villegas, a Full-Stack developer specializing in Python and web technologies.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/icon.png" />
+</head>
+<body>
+    <!-- Options menu and logo -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">AV</a>
+            <ul class="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" class="btn">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Portfolio introduction -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="greeting">Hello, I am</span>
+                    <span class="name">Adrian Villegas</span>
+                </h1>
+                <p class="hero-subtitle">Full-stack developer passionate about creating innovative digital solutions</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn primary">View projects</a>
+                    <a href="#contact" class="btn secondary">Contact me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="img/photo.jpg" width="200" height="200" alt="Adrian Villegas" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- A little description about me -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">About me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p class="lead">20-year-Old Full-stack developer based in Barranquilla, Colombia. Self-taught by nature and passionate about technology.</p>
+                    <p>My approach combines the creativity of design with the precision of code. Every project is an opportunity to learn, grow, and overcome challenges.</p>
+                    <p>When i'm not coding, you'll find me exploring new technologies, improving my English, or contributing to open source project</p>
+                    <div class="tech-tags">
+                        <span>Python</span>
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>Java</span>
+                        <span>and more</span>
+                    </div>
+                </div>
+                <!-- Small table showing relevant information -->
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-value">2+</div>
+                        <div class="stat-label">Years of experience</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">4+</div>
+                        <div class="stat-label">Completed projects</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">100%</div>
+                        <div class="stat-label">Commitment</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chart of my skills by percentage and my soft skills -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Main technologies</h3>
+                    <div class="skill-item">
+                        <span>Python</span>
+                        <div class="skill-meter">
+                            <div class="skill-level" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>HTML5 & CSS3</span>
+                        <div class="skill-meter">
+                            <div class="skill-level" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>JavaScript</span>
+                        <div class="skill-meter">
+                            <div class="skill-level" style="width: 20%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Other technologies</h3>
+                    <div class="skill-item">
+                        <span>Java</span>
+                        <div class="skill-meter">
+                            <div class="skill-level" style="width: 10%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Git</span>
+                        <div class="skill-meter">
+                            <div class="skill-level" style="width: 25%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>SQL</span>
+                        <div class="skill-meter">
+                            <div class="skill-level" style="width: 50%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category soft-skills">
+                    <h3>Soft skills</h3>
+                    <ul>
+                        <li>
+                            <i class="fas fa-brain"></i>
+                            <span>Troubleshooting</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-users"></i>
+                            <span>Teamwork</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-bolt"></i>
+                            <span>Fast learning</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-comments"></i>
+                            <span>Effective communication</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- My journey and experience -->
+    <section id="experience" class="section experience">
+        <div class="container">
+            <h2 class="section-title">My projects</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2025 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Junior Full Stack Developer</h3>
+                        <p class="company">TechSolutions, Barranquilla</p>
+                        <ul>
+                            <li>Development and maintenance of web applications</li>
+                            <li>Implementation of responsive designs</li> <!-- permiten que una página web se adapte automáticamente al tamaño y formato de la pantalla del dispositivo en el que se visualiza -->
+                            <li>I work with agile methodologies</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">2025 - 2026</div>
+                    <div class="timeline-content">
+                        <h3>Web Development Training</h3>
+                        <p class="company">RIWI</p>
+                        <ul>
+                            <li>Full Stack Intensive Program</li>
+                            <li>Specialization in Python and Java</li>
+                            <li>Software architecture</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- My project -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="img/portfolio.png" alt="Personal portfolio" loading="lazy">
+                    </div>
+                    <div class="project-info">
+                        <h3>Personal portfolio</h3>
+                        <p>Design and development of this portfolio website with a focus on performance and accessibility.</p>
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="#" class="project-link" aria-label="View project details personal portfolio">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <!-- These are example projects -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="img/ecommerce.jpg" alt="Online Store" loading="lazy">
+                    </div>
+                    <div class="project-info">
+                        <h3>Online store</h3>
+                        <p>E-commerce platform with shopping cart and authentications system</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Django</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <a href="#" class="project-link" aria-label="See project details online store">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="img/ads-ov3.png" alt="Data Analyzer" loading="lazy">
+                    </div>
+                    <div class="project-info">
+                        <h3>Data Analyzer</h3>
+                        <p>Application for processing and visualization of complex datasets</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>Matplotlib</span>
+                        </div>
+                        <a href="#" class="project-link" aria-label="View project details data analyzer">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- My personal information and contact -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <p>¿Interested in working together or have any questions? ¡Contact me!</p>
+                    
+                    <div class="contact-details">
+                        <a href="mailto:adriandario@gmail.com" class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            adriandariov@gmail.com
+                        </a>
+                        <a href="tel:+573182225730" class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            +57 318 222 5730
+                        </a>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Barranquilla, Colombia
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" aria-label="GitHub" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" aria-label="LinkedIn" class="social-link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" aria-label="Twitter" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required placeholder=" ">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder=" ">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" required placeholder=" "></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">AV</a>
+                    <p>Full stack developer</p>
+                </div>
+                <nav class="footer-nav">
+                    <ul>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                    </ul>
+                </nav>
+                <div class="footer-cta">
+                    <a href="#contact" class="btn secondary">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Adrian Villegas. All rights reserved.</p>
+                <div class="legal-links">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
